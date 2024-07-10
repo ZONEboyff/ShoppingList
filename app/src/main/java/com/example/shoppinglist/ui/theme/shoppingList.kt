@@ -188,7 +188,7 @@ fun EditWindow(item: shoppingItem, onEditComplete:(String, Int)->Unit){
             ))
         }
         Button(onClick = {onEditComplete(editedName,editedQuantity.toInt())}) {
-            Text(text="SAVE");
+            Text(text="SAVE")
         }
     }
 
